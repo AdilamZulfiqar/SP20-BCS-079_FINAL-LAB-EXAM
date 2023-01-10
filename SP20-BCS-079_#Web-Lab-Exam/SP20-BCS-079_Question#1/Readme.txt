@@ -1,0 +1,3 @@
+I basically made simple Input Fields(TextFields via mui) setting their values as required i.e username and password which was needed for authentication.
+Using the onChange prop I called the function React Built in State function to update their states as required. Button was disabled incase username or password blanks were left empty.
+I had to first convert the response from the server into json format, after the promise was returned I then stored the token in Local Storage with the name 'token'. And that was it.
